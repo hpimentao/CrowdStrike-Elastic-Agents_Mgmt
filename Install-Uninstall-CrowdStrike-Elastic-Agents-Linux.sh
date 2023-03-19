@@ -22,7 +22,7 @@ ENROLLMENT_TOKEN=""
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
 # Create log file with maximum verbosity
-LOG_FILE="$SCRIPT_DIR/Manage-CrowdStrike-Elastic-Agents-Linux.log"
+LOG_FILE="$SCRIPT_DIR/Install-Uninstall-CrowdStrike-Elastic-Agents-Linux.log"
 exec > >(tee -i $LOG_FILE)
 exec 2>&1
 
